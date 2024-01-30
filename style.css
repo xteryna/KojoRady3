@@ -303,6 +303,10 @@ a {
         flex-direction: column;
         max-width: 300px;
     }
+
+    .footer {
+        background-size: 50%;
+    }
 }
 
 
@@ -368,9 +372,11 @@ a {
     justify-content:center;
     background-image: url(images/prsa-vodorovne.svg);
     background-repeat: repeat-x;
-    background-size: 33vw;
+    background-size: 100%;
     background-position: bottom;
 }
+
+
 
 .footer p{
     font-size: 0.8rem;
