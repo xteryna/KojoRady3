@@ -21,7 +21,7 @@ body {
 }
 
 .content {
-    min-height: 80dvh;
+    min-height: 73dvh;
     background-image: url(images/okraj-horni.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body {
 
 .menu__toggler {
         cursor: pointer;
-        font-size: 4rem;
+        font-size: 3rem;
         text-align: center;
         display: block;
         color: black;
@@ -76,7 +76,7 @@ body {
         text-decoration: none;
         text-align: center;
         color: black;
-        font-size: max(1.2rem, 2vw) ;
+        font-size: max(1.2rem, 1.7vw) ;
     }
         
 .menu__item:hover {
@@ -90,7 +90,7 @@ body {
     
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 610px) {
     
     .menu__toggler {
             display: none;
@@ -102,14 +102,14 @@ body {
             justify-content: center;
     }
     .menu__item {
-            padding: 0.5em 1em;
+            padding: 0.5em;
     }
     
  }
 
 
 .title {
-    font-size: max(2rem, 6vw);
+    font-size: max(2rem, 5vw);
     font-weight: 200;
     margin-block: 3vw;
 }
@@ -120,14 +120,14 @@ h2 {
 }
 
 p {
-    font-size: max(1rem, 2vw);
+    font-size: max(0.9rem, 1.7vw);
     margin-top: 4vh;
     margin-bottom: 0;
 }
 
 a {
     text-decoration: none;
-    font-size: max(1rem, 2vw);
+    font-size: max(1rem, 1.7vw);
 }
 
 .italic {
@@ -175,6 +175,7 @@ a {
 .hero {
     display: grid;
     grid-template-columns: auto 1fr auto;
+    min-height: 87dvh;
 }
 
 .left, .right {
@@ -215,6 +216,14 @@ a {
     grid-column: 1/span2; */
 }
 
+
+.hero-logo__small {
+    width: clamp(100px,20vw, 200px);
+    height: clamp(100px,20vw, 200px);
+    margin: 5vh auto;
+    /* grid-row: 1;
+    grid-column: 1/span2; */
+}
 
 
 /* kontakty */
@@ -328,7 +337,7 @@ a {
 
 
 .pre-footer {
-    height: 100px;
+    height: 6vw;
     background-image: url(images/okraj-dolni.svg);
     background-size: contain;
     background-repeat: no-repeat;
