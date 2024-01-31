@@ -252,13 +252,17 @@ a {
 }
 
 .icon {
-    width: max(10px, 5vw);
-    height: max(10px, 5vw) ;
+    width: max(40px, 5vw);
+    height: max(40px, 5vw) ;
     justify-self: center;
     flex-grow: 0;
     display: block;
     color: #e89d9d;
     
+}
+
+.contact__grid a {
+    font-size: max(1.5rem, 2vw);
 }
 
 .icon:hover {
