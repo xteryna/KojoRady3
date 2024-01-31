@@ -16,6 +16,7 @@ body {
     height: 100dvh;
     display: flex;
     flex-direction: column;
+
 }
 
 .pink {
@@ -33,11 +34,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content:center;
- 
 }
+
 
 .menu {
     background-color: #f4d0d0;
+    margin-bottom: -2px;
 }
 
 .menu__checkbox {
@@ -253,7 +255,7 @@ a {
 
 .icon {
     width: max(40px, 5vw);
-    height: max(40px, 5vw) ;
+    height: max(40px, 5vw);
     justify-self: center;
     flex-grow: 0;
     display: block;
@@ -321,6 +323,7 @@ a {
     background-repeat: repeat-x;
     background-size: 400px;
     flex: none;
+    margin-top: -2px;
 }
 
 .footer p{
