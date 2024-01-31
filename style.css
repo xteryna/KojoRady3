@@ -207,7 +207,7 @@ a {
     border-radius: 15px;
     box-shadow: 2px 2px 5px #e4b3b3;
     background-color: #f6dbdb;
-    color: #723333;    
+    color: #723333;
 }
 
 .card-reverse {
@@ -241,15 +241,29 @@ a {
     margin: auto;
 }
 
+.mamila:hover {
+    background-color: #f7e9e9;
+    border-radius: 5px;
+    border: 1px solid #e4b3b3;
+}
+
 .mamila__img {
     width: 100%;
 }
 
 .icon {
     width: max(10px, 5vw);
+    height: max(10px, 5vw) ;
     justify-self: center;
     flex-grow: 0;
     display: block;
+    color: #e4b3b3;
+    
+}
+
+.icon:hover {
+    background-color: #f7e9e9;
+    border-radius: 0.5vw;
 }
 
 .link-block:hover {
@@ -272,7 +286,7 @@ a {
 
 
 .link-inline {
-    color: black;
+    color: #e4b3b3;
 }
 
 
@@ -281,7 +295,9 @@ a {
 } */
 .link-inline:hover {
     /* text-decoration: underline; */
-    color: #723333;
+    /* color: #723333; */
+    background-color: #f7e9e9;
+    border-radius: 5px;
     /* font-size: 0.9em;
     padding-inline: 0.221em; */
 }
@@ -348,17 +364,17 @@ a {
 
     .social-media {
         grid-column: 2;
-        grid-row: 1;
+        grid-row: 2;
     }
 
     .location {
         grid-column: 2;
-        grid-row: 3;        
+        grid-row: 1;        
     }
 
     .mamila {
         grid-column: 2;
-        grid-row: 2;        
+        grid-row: 3;        
     }
 
     .card {
