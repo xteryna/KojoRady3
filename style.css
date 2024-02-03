@@ -27,19 +27,43 @@ body {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
-    background-image: url(images/okraj-horni.svg), url(images/okraj-dolni.svg);
+    /* background-image: url(images/okraj-horni.svg), url(images/okraj-dolni.svg);
     background-size: 100%, 100%;
     background-repeat: no-repeat, no-repeat;
-    background-position: top left, bottom left;
+    background-position: top left, bottom left; */
+    background-image: url(images/okraj-dolni.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
     display: flex;
     flex-direction: column;
     justify-content:center;
+    margin-top: max(70px, 7vw, 20px);
 }
 
 
 .menu {
     background-color: #f4d0d0;
+
     margin-bottom: -2px;
+
+
+    /* margin-bottom: 10vw; */
+
+}
+
+.menu__wrap {
+    position: fixed;
+    top:0;
+    z-index: 1;
+    width: 100%;
+}
+.menu__border {
+    background-image: url(images/okraj-horni.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 5vw;
 }
 
 .menu__checkbox {
@@ -103,7 +127,7 @@ body {
 .title {
     font-size: max(2rem, 5vw);
     font-weight: 200;
-    margin-top: 3vw;
+    margin-top: 1vw;
     margin-bottom: 1vW;
 }
 
@@ -151,9 +175,9 @@ a {
     font-style: italic;
 }
 
-.bold {
+/* .bold {
     font-weight: 500;
-}
+} */
 
 .hero-logo img {
     border-radius: 50%;
